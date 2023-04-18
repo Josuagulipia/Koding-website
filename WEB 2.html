@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penjelasan Hero Hayabusa</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: burlywood;
+		}
+
+		header, nav, main, footer {
+			display: block;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
+
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			background-color:red;
+			justify-content: center;
+		}
+
+		nav li {
+			justify-content: center;
+    		align-items: center;
+			display: inline-block;
+			margin-right: 10px;
+		}
+
+		nav li a {
+			display: block;
+			padding: 10px;
+			color: #fff;
+			text-decoration: none;
+		}
+
+		nav li a:hover {
+			background-color: #555;
+		}
+
+		main {
+			padding: 10px;
+			display: flex;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: space-between;
+		}
+
+		
+		container-content{
+   		 background-color: black;
+    	display: flex ;
+    	justify-content: center;
+    	align-items: center;
+    	height: 100vh;
+		}
+
+	.a-content{
+    	background-color: rgb(56, 10, 10);
+    	color:white;
+    	text-decoration: none;
+    	font-size: 30px ;
+    	width: 720px;
+    	height: 480px;
+    	display:flex ;
+    	flex-direction:column;
+    	justify-content: space-evenly;
+    	align-items: center;
+    	border-radius: 80px;
+    	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	  }
+	  .img-content{
+       width: 50%;
+       height: 50%;
+      }		
+	
+
+		#berita img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#Penjelasan{
+			text-align:center;
+			flex: 1 0 400px
+		}
+
+		#profil {
+			flex: 1 0 300px;
+			margin: 10px;
+			text-align: center;
+		}
+
+		#profil img {
+			max-width: 50%;
+			height: auto;
+			border-radius: 50%;
+			margin-bottom: 10px;
+		}
+
+		#konten {
+			flex: 2 0 calc(100% - 730px);
+			margin: 10px;
+		}
+		article {
+			margin-bottom: 20px;
+			padding: 10px;
+			text-align: center;
+			border: 1px solid  #131212;
+		}
+		aside {
+			flex-basis: 30%;
+			background-color: #acacc5;
+			padding: 10px;
+		}
+
+		/* Footer */
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			margin-top: 5px;
+		}
+
+		
+	</style>
+</head>
+<body>
+	<header>
+		<h1 align=center>Penjelasan Hero Hayabusa</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="Skill.html">Skill</a></li>
+			<li><a href="Build Item.html">Build Item</a></li>
+		</ul>
+	</nav>
+	<main>
+		<article>
+		<div class="container-content">
+			<a href="https://www.youtube.com/watch?v=DwrnpL6EV6g"
+			class="a-content">
+			<img src="Haya.jpg"   class="img-content"/>
+			<P>Klik Gambar untuk tau lebih jelas</P>
+		</a>
+		</div>
+		</article>
+
+		<aside>
+		<div id="profil">
+			<img src="K.jpeg"Gambar Profil Dummy">
+			<h2>Nama:Jhosua Gulipia</h2>
+			<h2>Status:Mahasiswa</h2>
+		</div>
+	</aside>
+		<article>
+		<div>
+			<p id="Penjelasan"><b>Hayabusa merupakan salah satu hero Assassin di Mobile Legends yang cukup mematikan. Hal itu dikarenakan Hayabusa memiliki berbagai kemampuan untuk melumpuhkan lawannya.
+				Hayabusa bisa kamu andalkan saat memainkan Mobile Legends. Hero yang satu ini juga sangat aktif dimainkan sebagai hyper carry dan sangat populer di kalangan pemain ML.
+				Sebelum menggunakan hero Hayabusa, berikut ini adalah tips menggunakan serta skill yang dimilikinya.</b></p>
+			<h2 id="konten"align="center">Selamat datang di halaman web ini. Silakan klik salah satu link di atas untuk melihat konten yang tersedia.</h2>
+		</div>
+	</article>
+		<div id="Penjelasan">
+		
+		</div>
+	</main>
+	<footer>
+		<p>&copy; Belajar Dasar Pemrograman Web © 2023, Dicoding Academy</p>
+    </footer>
+</body>
+</html>
